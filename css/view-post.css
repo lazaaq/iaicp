@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body {
+    font-family: 'Share Tech', sans-serif;
+}
+header { 
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 2rem 1rem 2rem;
+    transition: 0.6s;
+    z-index: 1;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .items {
+    display: flex;
+    align-items: center;
+}
+header .items img {
+    position: relative;
+    transition: 0.6s;
+}
+header .items ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: -1rem;
+}
+header .items ul li {
+    position: relative;
+    margin: 0.5rem 1rem 0 1rem;
+}
+header .items ul li a {
+    position: relative;
+    transition: 0.6s;
+    font-family: 'Share Tech', sans-serif;
+    font-size: larger;
+    letter-spacing: 0.3rem;
+}
+header .items ul li a:link,
+header .items ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+header .items ul li a:hover {
+    color: #242424;
+    background-color: #FFC60B;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+header .items ul li .dropbtn {
+    text-decoration: none;
+    color: white;
+}
+
+header .items ul li .dropdown-content {
+    width: fit-content;
+    display: none;
+    position: absolute;
+    background-color: #242424;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+header .items ul li .show {
+    display: block;
+}
+
+header .dropdown {
+    display: none;
+}
+header .buttons {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header .buttons-small {
+    display: none;
+}
+header .brand {
+    position: relative;
+    transition: 0.5s;
+}
+header .brand:hover {
+    background-color: #FFC60B;
+    border-radius: 50%;
+}
+header.sticky {
+    padding: 1.5rem 3rem;
+    background-color: #ffffff;
+}
+header.sticky .items ul li .dropbtn {
+    color: #242424;
+}
+header.sticky .items ul li .dropdown-content {
+    color: #F6F4E6;
+}
+header.sticky .items ul li a.not-drop:link,
+header.sticky .items ul li a.not-drop:visited {
+    color:#242424;
+}
+header.sticky .drop a:link,
+header.sticky .drop a:visited {
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    header .container {
+        display: block;
+    }
+    header .items {
+        display: flex;
+        justify-content: center;
+    }
+    header .buttons {
+        margin-top: 0.5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    header .container {
+        display: flex;
+    }
+    header .items {
+        display: none;
+    }
+    header .dropdown {
+        display: block;
+    }
+}
+@media screen and (max-width: 530px) {
+    header .items ul li a {
+        letter-spacing: 0;
+    }
+    header .buttons {
+        display: none;
+    }
+    header .buttons-small {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+    }
+} 
+@media screen and (max-width: 250px) {
+    header .dropdown {
+        text-align: center;
+    }
+    header .buttons-small {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    header .container {
+        display: block;
+    }
+}
+
+.postingan {
+    background-color: #2C2D34;
+    height: fit-content;
+    padding-top: 7rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+.postingan .poster {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.postingan .poster .image img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+.postingan .poster .nama-angkatan {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.postingan .poster .nama-angkatan .angkatan {
+    color: orange;
+}
+.postingan .poster .tanggal {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.postingan .post {
+    margin: 1rem 1rem 1rem 4rem;
+}
+.postingan button#tambah-komentar {
+    margin-left: 4rem;
+}
+.postingan button#tutup-komentar {
+    display: none;
+    margin-left: 4rem;
+}
+.postingan .tambah-komentar {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    display: none;
+}
+.postingan .tambah-komentar button {
+    margin-top: 0.5rem;
+}
+
+.komentar {
+    padding-bottom: 5rem;
+    background-color: #F6F4E6;
+    margin-top: 0;
+    min-height: 100vh;
+    height: fit-content;
+    padding-top: 3rem;
+}
+.komentar .total-komen {
+    padding: 1rem;
+    background-color: #2C2D34;
+    border-radius: 0.3rem;
+    color: #fcf7d5;
+    width: fit-content;
+    margin-bottom: 3rem;
+}
+.komentar .data-komen {
+    margin-top: 1rem;
+    background-color: #2C2D34;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    color: #fcf7d5;
+}
+.komentar .data-komen .poster {
+    display: flex;
+    align-items: center;
+}
+.komentar .data-komen .poster .image img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+.komentar .data-komen .poster .nama-angkatan {
+    margin-left: 1rem;
+}
+.komentar .data-komen .poster .nama-angkatan .angkatan {
+    color: orange;
+}
+.komentar .poster .tanggal {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.komentar .data-komen .post  {
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.komentar .to-the-top {
+    width: 100%;
+    text-align: end;
+    margin-top: 1rem;
+}
+.komentar .poster .image:hover img {
+    transition: 0.3s;
+    width: 70px;
+    height: auto;
+}
+.poster .image img {
+    transition: 0.3s;
+}
+.poster .image:hover img {
+    transition: 0.3s;
+    width: 70px;
+    height: auto;
+}
+.poster .nama-angkatan .nama a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.poster .nama-angkatan .nama:hover a {
+    color: #FFC60B;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+@media screen and (max-width: 900px) {
+    .postingan button#back {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .postingan {
+        padding-top: 4rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .postingan .poster,
+    .postingan .post,
+    .postingan .tambah-komentar  {
+        margin-left: 1rem;
+        padding-left: 0;
+    }
+    .postingan button#tambah-komentar,
+    .postingan button#tutup-komentar {
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .komentar .poster,
+    .komentar .post {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .tanggal {
+        display: none;
+    }
+}
+
+
+.footer {
+    background-color: #242424;
+    width: 100%;
+    min-height: 40vh;
+    height: fit-content;
+    padding: 2rem 0;
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+}
+.footer .button-saran {
+    width: 100%;
+    background-color: #2C2D34;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    text-align: start;
+    color: white;
+    height: fit-content;
+    font-size: 1rem;
+    border: 1px #2C2D34 solid;
+}
+.footer #tutup-saran {
+    display: none;
+}
+.footer .saran {
+    margin-top: 0.5rem;
+    font-size: medium;
+    border-radius: 0.3rem;
+    background-color: #2C2D34;
+    padding: 2rem 2rem 1rem 2rem;
+}
+.footer #saran {
+    display: none;
+}
+.footer .saran form label {
+    font-size: larger;
+}
+.footer .menu {
+    margin: 1rem;
+    font-size: medium;
+}
+.footer .sosmed {
+    margin: 1rem 1rem 1rem auto;
+    font-size: medium;
+}
+.footer .menu-line,
+.footer .sosmed-line {
+    background-color: #F6F4E6;
+    opacity: 50%;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 0.3rem;
+    margin-left: 0.5rem;
+}
+.footer .sosmed-line {
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
+.footer .menu-item {
+    display: flex;
+    width: fit-content;
+}
+.footer .menu-item .item {
+    margin: 1rem;
+    text-align: center;
+}
+.footer .menu-item .item a {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+.footer .menu-item .item a:link, 
+.footer .menu-item .item a:visited {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.footer .menu-item .item a:hover {
+    background-color: #FFC60B;
+    transition: 0.3s;
+    padding: 0.3rem 1rem;
+    color: #242424;
+}
+.footer .sosmed-item {
+    display: flex;
+    justify-content: end;
+    margin: 1rem 1rem 1rem auto;
+}
+.footer .sosmed-item .item {
+    background-color: #F6F4E6;
+    width: fit-content;
+    padding: 0.5rem 0;
+    margin: 0 0.5rem;
+    border-radius: 0.3rem;
+}
+.footer .sosmed-item img {
+    width: 20px;
+    height: 20px;
+    margin: 0 1rem;
+}
+.footer .footer-line {
+    background-color: #F6F4E6;
+    border-radius: 0.3rem;
+    height: 0.3rem;
+    width: 100%;
+    margin-top: 3rem;
+    opacity: 50%;
+}
+.footer .copyright {
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 0.5rem;
+}
+@media screen and (max-width: 768px){
+    .footer .menu,
+    .footer .sosmed {
+        text-align: center;
+    }
+    .footer .menu-line,
+    .footer .sosmed-line {
+        margin: auto;
+        width: 70%;
+    }
+    .footer .menu-item,
+    .footer .sosmed-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer .saran form label {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .footer .menu-item {
+        display: block;
+    }
+    .footer .sosmed-item {
+        display: block;
+        text-align: center;
+    }
+    .footer .sosmed-item .item {
+        margin: 1rem auto;
+    }
+}

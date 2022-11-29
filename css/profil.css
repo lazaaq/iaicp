@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+header { 
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 2rem 1rem 2rem;
+    transition: 0.6s;
+    z-index: 1;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .items {
+    display: flex;
+    align-items: center;
+}
+header .items img {
+    position: relative;
+    transition: 0.6s;
+}
+header .items ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: -1rem;
+}
+header .items ul li {
+    position: relative;
+    margin: 0.5rem 1rem 0 1rem;
+}
+header .items ul li a {
+    position: relative;
+    transition: 0.6s;
+    font-family: 'Share Tech', sans-serif;
+    font-size: larger;
+    letter-spacing: 0.3rem;
+}
+header .items ul li a:link,
+header .items ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+header .items ul li a:hover {
+    color: #242424;
+    background-color: #FFC60B;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+header .items ul li .dropbtn {
+    text-decoration: none;
+    color: white;
+}
+
+header .items ul li .dropdown-content {
+    width: fit-content;
+    display: none;
+    position: absolute;
+    background-color: #242424;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+header .items ul li .show {
+    display: block;
+}
+
+header .dropdown {
+    display: none;
+}
+header .buttons {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header .buttons-small {
+    display: none;
+}
+header .brand {
+    position: relative;
+    transition: 0.5s;
+}
+header .brand:hover {
+    background-color: #FFC60B;
+    border-radius: 50%;
+}
+header.sticky {
+    padding: 1.5rem 3rem;
+    background-color: #ffffff;
+}
+header.sticky .items ul li .dropbtn {
+    color: #242424;
+}
+header.sticky .items ul li .dropdown-content {
+    color: #F6F4E6;
+}
+header.sticky .items ul li a.not-drop:link,
+header.sticky .items ul li a.not-drop:visited {
+    color:#242424;
+}
+header.sticky .drop a:link,
+header.sticky .drop a:visited {
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    header .container {
+        display: block;
+    }
+    header .items {
+        display: flex;
+        justify-content: center;
+    }
+    header .buttons {
+        margin-top: 0.5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    header .container {
+        display: flex;
+    }
+    header .items {
+        display: none;
+    }
+    header .dropdown {
+        display: block;
+    }
+}
+@media screen and (max-width: 530px) {
+    header .items ul li a {
+        letter-spacing: 0;
+    }
+    header .buttons {
+        display: none;
+    }
+    header .buttons-small {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+    }
+} 
+@media screen and (max-width: 250px) {
+    header .dropdown {
+        text-align: center;
+    }
+    header .buttons-small {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    header .container {
+        display: block;
+    }
+}
+
+.contents {
+    min-height: 100vh;
+    height: fit-content;
+    background-color: #2C2D34;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+}
+.contents .judul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.contents .judul .line {
+    height: 3rem;
+    width: 0.5rem;
+    background-color: #FFC60B;
+}
+.contents .judul .text {
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+}
+.contents .gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents .gambar img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+.contents .id {
+    display: flex;
+    align-items: center;
+}
+.contents .id form {
+    width: 100%;
+}
+.contents .id .id-readonly {
+    width: 100%;
+}
+.contents label {
+    color: #FFC60B;
+    font-family: 'Share Tech';
+    font-weight: 500;
+}
+.contents .form1,
+.contents .form1_disabled,
+.contents .form2,
+.contents .form2_disabled {
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.contents .keterangan {
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.contents .check .berkuliah {
+    display: flex;
+    align-items: center;
+}
+.contents .check .bekerja {
+    /* color: white;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1rem; */
+    display: flex;
+    align-items: center;
+}
+.contents .check {
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.contents .form1,
+.contents .form2 {
+    display: none;
+}
+.contents .form1_disabled,
+.contents .form2_disabled {
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .contents .gambar img {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contents .gambar img {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .gambar {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .id {
+        width: 100%;
+    }
+    .kiri {
+        width: 100%;
+    }
+    .kanan {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 230px) {
+    .contents .judul .line {
+        display: none;
+    }
+    .contents .judul .text {
+        font-size: 13vw;
+        margin: auto;
+        text-align: center;
+    }
+}
+.footer {
+    background-color: #242424;
+    width: 100%;
+    min-height: 40vh;
+    height: fit-content;
+    padding: 2rem 0;
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+}
+.footer .button-saran {
+    width: 100%;
+    background-color: #2C2D34;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    text-align: start;
+    color: white;
+    height: fit-content;
+    font-size: 1rem;
+    border: 1px #2C2D34 solid;
+}
+.footer #tutup-saran {
+    display: none;
+}
+.footer .saran {
+    margin-top: 0.5rem;
+    font-size: medium;
+    border-radius: 0.3rem;
+    background-color: #2C2D34;
+    padding: 2rem 2rem 1rem 2rem;
+}
+.footer #saran {
+    display: none;
+}
+.footer .saran form label {
+    font-size: larger;
+}
+.footer .menu {
+    margin: 1rem;
+    font-size: medium;
+}
+.footer .sosmed {
+    margin: 1rem 1rem 1rem auto;
+    font-size: medium;
+}
+.footer .menu-line,
+.footer .sosmed-line {
+    background-color: #F6F4E6;
+    opacity: 50%;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 0.3rem;
+    margin-left: 0.5rem;
+}
+.footer .sosmed-line {
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
+.footer .menu-item {
+    display: flex;
+    width: fit-content;
+}
+.footer .menu-item .item {
+    margin: 1rem;
+    text-align: center;
+}
+.footer .menu-item .item a {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+.footer .menu-item .item a:link, 
+.footer .menu-item .item a:visited {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.footer .menu-item .item a:hover {
+    background-color: #FFC60B;
+    transition: 0.3s;
+    padding: 0.3rem 1rem;
+    color: #242424;
+}
+.footer .sosmed-item {
+    display: flex;
+    justify-content: end;
+    margin: 1rem 1rem 1rem auto;
+}
+.footer .sosmed-item .item {
+    background-color: #F6F4E6;
+    width: fit-content;
+    padding: 0.5rem 0;
+    margin: 0 0.5rem;
+    border-radius: 0.3rem;
+}
+.footer .sosmed-item img {
+    width: 20px;
+    height: 20px;
+    margin: 0 1rem;
+}
+.footer .footer-line {
+    background-color: #F6F4E6;
+    border-radius: 0.3rem;
+    height: 0.3rem;
+    width: 100%;
+    margin-top: 3rem;
+    opacity: 50%;
+}
+.footer .copyright {
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 0.5rem;
+}
+@media screen and (max-width: 768px){
+    .footer .menu,
+    .footer .sosmed {
+        text-align: center;
+    }
+    .footer .menu-line,
+    .footer .sosmed-line {
+        margin: auto;
+        width: 70%;
+    }
+    .footer .menu-item,
+    .footer .sosmed-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer .saran form label {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .footer .menu-item {
+        display: block;
+    }
+    .footer .sosmed-item {
+        display: block;
+        text-align: center;
+    }
+    .footer .sosmed-item .item {
+        margin: 1rem auto;
+    }
+}
+
+.contents .gambar .image_area {
+    position: relative;
+}
+
+.contents .modal .modal-body .preview {
+    overflow: hidden;
+    width: 160px; 
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.contents .modal .modal-lg{
+    max-width: 1000px !important;
+}
+
+.contents .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+    width: 100%;
+}
+
+.contents .gambar .image_area:hover .overlay {
+    height: 50%;
+    cursor: pointer;
+}
+
+.contents .overlay .text {
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-line {
+    background-color:  transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+    width: 100%;
+}
+select option {
+    color: #242424;
+}

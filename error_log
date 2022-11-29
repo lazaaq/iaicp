@@ -1,0 +1,69 @@
+[09-Aug-2021 16:57:35 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/index.php on line 8
+[09-Aug-2021 16:57:36 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/index.php on line 8
+[09-Aug-2021 16:57:53 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 16:58:03 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 16:58:03 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 16:58:09 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 16:58:09 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 16:58:09 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 16:58:20 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 16:58:20 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 16:58:20 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 16:58:20 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 16:58:25 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/config.php on line 8
+[09-Aug-2021 16:59:03 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 16:59:03 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 16:59:03 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 17:02:48 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:02:59 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:02:59 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 17:02:59 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 17:03:16 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:03:16 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 17:03:16 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 17:04:21 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/guest-index.php on line 3
+[09-Aug-2021 17:05:31 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:05:40 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:05:40 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 17:05:40 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 17:06:06 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:06:06 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 17:06:06 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 17:06:10 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:06:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 17:06:10 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 17:06:14 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iaih7936/public_html/login.php on line 8
+[09-Aug-2021 17:06:14 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/iaih7936/public_html/login.php on line 20
+[09-Aug-2021 17:06:14 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/iaih7936/public_html/login.php on line 23
+[09-Aug-2021 17:12:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function saran() in /home/iaih7936/public_html/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/iaih7936/public_html/index.php on line 12
+[09-Aug-2021 17:47:27 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/iaih7936/public_html/person.php on line 36
+[09-Aug-2021 17:59:37 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[09-Aug-2021 21:50:27 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[09-Aug-2021 21:50:38 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[09-Aug-2021 21:57:06 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[09-Aug-2021 22:01:46 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[09-Aug-2021 22:01:58 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[09-Aug-2021 23:19:26 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:05:58 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:06:11 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:07:56 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:10:17 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:10:53 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:11:05 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:13:35 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:13:44 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 08:16:23 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 09:30:10 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 09:33:53 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 09:36:46 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 17:39:15 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 17:40:03 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 17:42:12 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 17:48:57 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 17:52:01 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 18:31:42 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 19:16:00 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84
+[10-Aug-2021 19:19:10 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iaih7936/public_html/profil.php:39) in /home/iaih7936/public_html/profil.php on line 84

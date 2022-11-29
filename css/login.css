@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 2rem 1rem 2rem;
+    transition: 0.6s;
+    z-index: 10;
+}
+header.sticky {
+    padding: 1.5rem 3rem;
+    background-color: #fff;
+}
+header .container {
+    display: flex;
+    align-items: center;
+}
+header .items {
+    display: flex;
+    align-items: center;
+}
+header .items img {
+    position: relative;
+    transition: 0.6s;
+}
+header #img2 {
+    display: none;
+}
+header .items ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: -1rem;
+}
+header .items ul li {
+    position: relative;
+    margin: 0.5rem 1rem 0 1rem;
+}
+header .items ul li a {
+    position: relative;
+    transition: 0.6s;
+    font-family: 'Share Tech', sans-serif;
+    font-size: larger;
+    letter-spacing: 0.3rem;
+}
+header .items ul li a:link,
+header .items ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+header .items ul li a:hover {
+    color: black;
+    background-color: #FFC60B;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+header.sticky .items ul li a:link,
+header.sticky .items ul li a:visited {
+    color:#000;
+}
+header .brand {
+    position: relative;
+    transition: 0.5s;
+}
+header .brand:hover {
+    background-color: #FFC60B;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    header .container {
+        display: block;
+    }
+    header .items {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 576px){
+    header #img1 {
+        display: none;
+    }
+    header #img2 {
+        display: block;
+    }
+}
+@media screen and (max-width: 530px) {
+    header .items ul li a {
+        letter-spacing: 0;
+    }
+}
+
+.text-line {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+    width: 100%;
+}
+
+.big-login {
+    height: 100vh;
+    background-color: #F6F4E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Share Tech', sans-serif;
+}
+.login-page .box {
+    height: fit-content;
+    min-height: 40vh;
+    width: 50vh;
+    background-color: #242424;
+    color: white;
+    border-radius: 0.3rem;
+}
+.login-page .head {
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem 2rem 0;
+}
+.login-page .head .line {
+    height: 2.5rem;
+    width: 1rem;
+    background-color: red;
+}
+.login-page .head .text {
+    font-family: 'Share Tech', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 1rem;
+} 
+.login-page .body {
+    padding: 0 2rem 2rem 2rem ;
+}
+.login-page .body .submit {
+    display: flex;
+    justify-content: center;
+}
+.login-page .body .text {
+    line-height: 0.5rem;
+}
+.login-page .body .text a,
+.login-page .body .text a:visited,
+.login-page .body .text a:link {
+    text-decoration: none;
+    color: red;
+    transition: 0.6s;
+}
+.login-page .body .text a:hover {
+    font-size: large;
+    color:#FFC60B;
+    transition: 0.6s;
+}
+.small-login {
+    display: none;
+    height: 100vh;
+    background-color: #242424;
+    padding: 1rem;
+    font-family: 'Share Tech', sans-serif;
+}
+.small-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    min-height: 50vh;
+    height: fit-content;
+    width: 100%;
+}
+.small-box .wrap {
+    width: 100%;
+}
+.small-box .head .text {
+    font-size: 2rem;
+    font-weight: 700;
+}
+@media screen and (max-width: 576px) {
+    .big-login {
+        display: none;
+    }
+    .small-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.small-login .text a {
+    text-decoration:none;
+    color: red;
+}
